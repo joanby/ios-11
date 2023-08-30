@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0123C9F61F1CA6E00029511B /* MakeFriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123C9F51F1CA6E00029511B /* MakeFriendsTableViewController.swift */; };
+		0123C9F81F1CA6ED0029511B /* CurrentSnapsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123C9F71F1CA6ED0029511B /* CurrentSnapsTableViewController.swift */; };
+		0123C9FA1F1CB83E0029511B /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123C9F91F1CB83E0029511B /* Snap.swift */; };
+		0131BCE71F1CCD3700CEF981 /* SnapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0131BCE61F1CCD3700CEF981 /* SnapTableViewCell.swift */; };
+		0176E09A1F18C6E100187468 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176E0991F18C6E100187468 /* AuthService.swift */; };
+		01DE5A431F13756C0030E8E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE5A421F13756C0030E8E6 /* AppDelegate.swift */; };
+		01DE5A451F13756C0030E8E6 /* MainCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE5A441F13756C0030E8E6 /* MainCameraViewController.swift */; };
+		01DE5A481F13756C0030E8E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DE5A461F13756C0030E8E6 /* Main.storyboard */; };
+		01DE5A4A1F13756C0030E8E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DE5A491F13756C0030E8E6 /* Assets.xcassets */; };
+		01DE5A4D1F13756C0030E8E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DE5A4B1F13756C0030E8E6 /* LaunchScreen.storyboard */; };
+		01DE5A571F13770B0030E8E6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE5A561F1376FF0030E8E6 /* CameraViewController.swift */; };
+		01DE5A581F13770E0030E8E6 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE5A551F1376FF0030E8E6 /* PhotoCaptureDelegate.swift */; };
+		01DE5A591F1377120030E8E6 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE5A541F1376FF0030E8E6 /* PreviewView.swift */; };
+		01DE5A5B1F13A8280030E8E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01DE5A5A1F13A6910030E8E6 /* GoogleService-Info.plist */; };
+		01DE5A5D1F13BF210030E8E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE5A5C1F13BF210030E8E6 /* LoginViewController.swift */; };
+		01DE5A5F1F13C2D40030E8E6 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE5A5E1F13C2D40030E8E6 /* RoundTextField.swift */; };
+		01DE5A611F13C8EA0030E8E6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE5A601F13C8EA0030E8E6 /* RoundButton.swift */; };
+		01F634051F18E5B100281122 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F634041F18E5B100281122 /* DatabaseService.swift */; };
+		01F634071F1A237100281122 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F634061F1A237100281122 /* UsersTableViewController.swift */; };
+		01F634091F1A239400281122 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F634081F1A239400281122 /* UserTableViewCell.swift */; };
+		01F6340B1F1A269700281122 /* TinsnapookUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F6340A1F1A269700281122 /* TinsnapookUser.swift */; };
+		58E13030DE577A7F7AD11ED1 /* Pods_Tinsnapook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911F1581245C7BDFDE899365 /* Pods_Tinsnapook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0123C9F51F1CA6E00029511B /* MakeFriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeFriendsTableViewController.swift; sourceTree = "<group>"; };
+		0123C9F71F1CA6ED0029511B /* CurrentSnapsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSnapsTableViewController.swift; sourceTree = "<group>"; };
+		0123C9F91F1CB83E0029511B /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		0131BCE61F1CCD3700CEF981 /* SnapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapTableViewCell.swift; sourceTree = "<group>"; };
+		0176E0991F18C6E100187468 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		01DE5A3F1F13756C0030E8E6 /* Tinsnapook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinsnapook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01DE5A421F13756C0030E8E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01DE5A441F13756C0030E8E6 /* MainCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCameraViewController.swift; sourceTree = "<group>"; };
+		01DE5A471F13756C0030E8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01DE5A491F13756C0030E8E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01DE5A4C1F13756C0030E8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01DE5A4E1F13756C0030E8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01DE5A541F1376FF0030E8E6 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		01DE5A551F1376FF0030E8E6 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		01DE5A561F1376FF0030E8E6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		01DE5A5A1F13A6910030E8E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		01DE5A5C1F13BF210030E8E6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		01DE5A5E1F13C2D40030E8E6 /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		01DE5A601F13C8EA0030E8E6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		01F634041F18E5B100281122 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		01F634061F1A237100281122 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		01F634081F1A239400281122 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		01F6340A1F1A269700281122 /* TinsnapookUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinsnapookUser.swift; sourceTree = "<group>"; };
+		85CB49AF024EC6D4570210B0 /* Pods-Tinsnapook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinsnapook.release.xcconfig"; path = "Target Support Files/Pods-Tinsnapook/Pods-Tinsnapook.release.xcconfig"; sourceTree = "<group>"; };
+		911F1581245C7BDFDE899365 /* Pods_Tinsnapook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinsnapook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A5A9534D7547597EF4B3D6 /* Pods-Tinsnapook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinsnapook.debug.xcconfig"; path = "Target Support Files/Pods-Tinsnapook/Pods-Tinsnapook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01DE5A3C1F13756C0030E8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E13030DE577A7F7AD11ED1 /* Pods_Tinsnapook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DE5A361F13756C0030E8E6 = {
+			isa = PBXGroup;
+			children = (
+				01DE5A411F13756C0030E8E6 /* Tinsnapook */,
+				01DE5A401F13756C0030E8E6 /* Products */,
+				A9F03500916EA3E44255C946 /* Pods */,
+				F9B4A7DA78F0191CDD874064 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01DE5A401F13756C0030E8E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01DE5A3F1F13756C0030E8E6 /* Tinsnapook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01DE5A411F13756C0030E8E6 /* Tinsnapook */ = {
+			isa = PBXGroup;
+			children = (
+				01DE5A561F1376FF0030E8E6 /* CameraViewController.swift */,
+				01DE5A551F1376FF0030E8E6 /* PhotoCaptureDelegate.swift */,
+				01DE5A541F1376FF0030E8E6 /* PreviewView.swift */,
+				01DE5A421F13756C0030E8E6 /* AppDelegate.swift */,
+				01DE5A441F13756C0030E8E6 /* MainCameraViewController.swift */,
+				01DE5A461F13756C0030E8E6 /* Main.storyboard */,
+				0123C9F51F1CA6E00029511B /* MakeFriendsTableViewController.swift */,
+				0123C9F71F1CA6ED0029511B /* CurrentSnapsTableViewController.swift */,
+				01DE5A491F13756C0030E8E6 /* Assets.xcassets */,
+				01DE5A4B1F13756C0030E8E6 /* LaunchScreen.storyboard */,
+				01DE5A5A1F13A6910030E8E6 /* GoogleService-Info.plist */,
+				01DE5A4E1F13756C0030E8E6 /* Info.plist */,
+				01DE5A5C1F13BF210030E8E6 /* LoginViewController.swift */,
+				01DE5A5E1F13C2D40030E8E6 /* RoundTextField.swift */,
+				01DE5A601F13C8EA0030E8E6 /* RoundButton.swift */,
+				0176E0991F18C6E100187468 /* AuthService.swift */,
+				01F634041F18E5B100281122 /* DatabaseService.swift */,
+				01F634061F1A237100281122 /* UsersTableViewController.swift */,
+				01F634081F1A239400281122 /* UserTableViewCell.swift */,
+				01F6340A1F1A269700281122 /* TinsnapookUser.swift */,
+				0123C9F91F1CB83E0029511B /* Snap.swift */,
+				0131BCE61F1CCD3700CEF981 /* SnapTableViewCell.swift */,
+			);
+			path = Tinsnapook;
+			sourceTree = "<group>";
+		};
+		A9F03500916EA3E44255C946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4A5A9534D7547597EF4B3D6 /* Pods-Tinsnapook.debug.xcconfig */,
+				85CB49AF024EC6D4570210B0 /* Pods-Tinsnapook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9B4A7DA78F0191CDD874064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				911F1581245C7BDFDE899365 /* Pods_Tinsnapook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01DE5A3E1F13756C0030E8E6 /* Tinsnapook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DE5A511F13756C0030E8E6 /* Build configuration list for PBXNativeTarget "Tinsnapook" */;
+			buildPhases = (
+				65ACA33BED643629D311ECC2 /* [CP] Check Pods Manifest.lock */,
+				01DE5A3B1F13756C0030E8E6 /* Sources */,
+				01DE5A3C1F13756C0030E8E6 /* Frameworks */,
+				01DE5A3D1F13756C0030E8E6 /* Resources */,
+				38E0F0191A5EA2D468FF2412 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tinsnapook;
+			productName = Tinsnapook;
+			productReference = 01DE5A3F1F13756C0030E8E6 /* Tinsnapook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01DE5A371F13756C0030E8E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = Frogames;
+				TargetAttributes = {
+					01DE5A3E1F13756C0030E8E6 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = "";
+					};
+				};
+			};
+			buildConfigurationList = 01DE5A3A1F13756C0030E8E6 /* Build configuration list for PBXProject "Tinsnapook" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01DE5A361F13756C0030E8E6;
+			productRefGroup = 01DE5A401F13756C0030E8E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01DE5A3E1F13756C0030E8E6 /* Tinsnapook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01DE5A3D1F13756C0030E8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DE5A4D1F13756C0030E8E6 /* LaunchScreen.storyboard in Resources */,
+				01DE5A5B1F13A8280030E8E6 /* GoogleService-Info.plist in Resources */,
+				01DE5A4A1F13756C0030E8E6 /* Assets.xcassets in Resources */,
+				01DE5A481F13756C0030E8E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38E0F0191A5EA2D468FF2412 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinsnapook/Pods-Tinsnapook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FirebaseAppCheckInterop/FirebaseAppCheckInterop.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseAuthInterop/FirebaseAuthInterop.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreExtension/FirebaseCoreExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseDatabase/FirebaseDatabase.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseStorage/FirebaseStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/RecaptchaInterop/RecaptchaInterop.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAppCheckInterop.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAuthInterop.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseDatabase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RecaptchaInterop.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tinsnapook/Pods-Tinsnapook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65ACA33BED643629D311ECC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tinsnapook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01DE5A3B1F13756C0030E8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F6340B1F1A269700281122 /* TinsnapookUser.swift in Sources */,
+				01DE5A611F13C8EA0030E8E6 /* RoundButton.swift in Sources */,
+				01DE5A5D1F13BF210030E8E6 /* LoginViewController.swift in Sources */,
+				01DE5A591F1377120030E8E6 /* PreviewView.swift in Sources */,
+				0176E09A1F18C6E100187468 /* AuthService.swift in Sources */,
+				01F634091F1A239400281122 /* UserTableViewCell.swift in Sources */,
+				0123C9F81F1CA6ED0029511B /* CurrentSnapsTableViewController.swift in Sources */,
+				0123C9FA1F1CB83E0029511B /* Snap.swift in Sources */,
+				01DE5A451F13756C0030E8E6 /* MainCameraViewController.swift in Sources */,
+				0131BCE71F1CCD3700CEF981 /* SnapTableViewCell.swift in Sources */,
+				01F634071F1A237100281122 /* UsersTableViewController.swift in Sources */,
+				01DE5A5F1F13C2D40030E8E6 /* RoundTextField.swift in Sources */,
+				01F634051F18E5B100281122 /* DatabaseService.swift in Sources */,
+				01DE5A431F13756C0030E8E6 /* AppDelegate.swift in Sources */,
+				0123C9F61F1CA6E00029511B /* MakeFriendsTableViewController.swift in Sources */,
+				01DE5A581F13770E0030E8E6 /* PhotoCaptureDelegate.swift in Sources */,
+				01DE5A571F13770B0030E8E6 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01DE5A461F13756C0030E8E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DE5A471F13756C0030E8E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01DE5A4B1F13756C0030E8E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01DE5A4C1F13756C0030E8E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01DE5A4F1F13756C0030E8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01DE5A501F13756C0030E8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01DE5A521F13756C0030E8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A5A9534D7547597EF4B3D6 /* Pods-Tinsnapook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LV4V48ATK9;
+				INFOPLIST_FILE = Tinsnapook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juangabriel.Tinsnapook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01DE5A531F13756C0030E8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CB49AF024EC6D4570210B0 /* Pods-Tinsnapook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LV4V48ATK9;
+				INFOPLIST_FILE = Tinsnapook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juangabriel.Tinsnapook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01DE5A3A1F13756C0030E8E6 /* Build configuration list for PBXProject "Tinsnapook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DE5A4F1F13756C0030E8E6 /* Debug */,
+				01DE5A501F13756C0030E8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01DE5A511F13756C0030E8E6 /* Build configuration list for PBXNativeTarget "Tinsnapook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DE5A521F13756C0030E8E6 /* Debug */,
+				01DE5A531F13756C0030E8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01DE5A371F13756C0030E8E6 /* Project object */;
+}

@@ -1,0 +1,17 @@
+project 'Tinsnapook.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '16.4'
+
+target 'Tinsnapook' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Tinsnapook
+  
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+end

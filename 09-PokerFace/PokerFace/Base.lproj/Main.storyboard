@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="nCf-qa-sKD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Poker Face-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PokerFace" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uBG-nh-Fch">
+                                <rect key="frame" x="16" y="162" width="343" height="343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uBG-nh-Fch" secondAttribute="height" multiplier="1:1" id="xaJ-Af-pO7"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="1" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Bw5-di-kr4">
+                                <rect key="frame" x="14" y="617" width="347" height="31"/>
+                                <connections>
+                                    <action selector="blurChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="NnD-9w-ldo"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="uBG-nh-Fch" secondAttribute="leading" id="2up-5z-05h"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uBG-nh-Fch" secondAttribute="trailing" id="470-th-jCk"/>
+                            <constraint firstItem="uBG-nh-Fch" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="J6G-n0-AcH"/>
+                            <constraint firstAttribute="bottom" secondItem="Bw5-di-kr4" secondAttribute="bottom" constant="20" id="JYZ-mN-Scn"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Bw5-di-kr4" secondAttribute="leading" id="inf-rN-fDD"/>
+                            <constraint firstItem="Bw5-di-kr4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lFx-OC-uPv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bw5-di-kr4" secondAttribute="trailing" id="wl7-q0-i2v"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Poker Face" id="ISW-mU-KV4"/>
+                    <connections>
+                        <outlet property="blurSlider" destination="Bw5-di-kr4" id="xzr-qh-v3A"/>
+                        <outlet property="imageView" destination="uBG-nh-Fch" id="FRn-Ad-EY5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949.60000000000002" y="490.70464767616198"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vzC-Of-iBv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nCf-qa-sKD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="J4U-dy-w7b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="18"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Xa8-kQ-aa4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gec-1A-XIO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136" y="491.15442278860576"/>
+        </scene>
+    </scenes>
+</document>

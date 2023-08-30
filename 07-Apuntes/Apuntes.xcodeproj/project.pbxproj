@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011F269F1F07B1A4004A8D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F269E1F07B1A4004A8D39 /* AppDelegate.swift */; };
+		011F26A11F07B1A4004A8D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F26A01F07B1A4004A8D39 /* ViewController.swift */; };
+		011F26A41F07B1A4004A8D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011F26A21F07B1A4004A8D39 /* Main.storyboard */; };
+		011F26A61F07B1A4004A8D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011F26A51F07B1A4004A8D39 /* Assets.xcassets */; };
+		011F26A91F07B1A4004A8D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011F26A71F07B1A4004A8D39 /* LaunchScreen.storyboard */; };
+		011F26C11F07B58F004A8D39 /* aplicaciones_lineales.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 011F26BC1F07B56E004A8D39 /* aplicaciones_lineales.pdf */; };
+		011F26C21F07B593004A8D39 /* diagonalizacion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 011F26B91F07B56E004A8D39 /* diagonalizacion.pdf */; };
+		011F26C31F07B593004A8D39 /* espacios_vectoriales.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 011F26BD1F07B56E004A8D39 /* espacios_vectoriales.pdf */; };
+		011F26C41F07B593004A8D39 /* matematica_discreta.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 011F26BB1F07B56E004A8D39 /* matematica_discreta.pdf */; };
+		011F26C51F07B593004A8D39 /* matrices.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 011F26BE1F07B56E004A8D39 /* matrices.pdf */; };
+		011F26C61F07B593004A8D39 /* programacion_lineal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 011F26BA1F07B56E004A8D39 /* programacion_lineal.pdf */; };
+		011F26C71F07B593004A8D39 /* teoria_de_grafos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 011F26BF1F07B56E004A8D39 /* teoria_de_grafos.pdf */; };
+		011F26C81F07B593004A8D39 /* vectores.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 011F26B81F07B56E004A8D39 /* vectores.pdf */; };
+		011F26CA1F07B7AB004A8D39 /* FilesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F26C91F07B7AB004A8D39 /* FilesTableViewController.swift */; };
+		011F26CC1F0972DC004A8D39 /* Watermark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F26CB1F0972DC004A8D39 /* Watermark.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011F269B1F07B1A4004A8D39 /* Apuntes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apuntes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		011F269E1F07B1A4004A8D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		011F26A01F07B1A4004A8D39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		011F26A31F07B1A4004A8D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		011F26A51F07B1A4004A8D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		011F26A81F07B1A4004A8D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		011F26AA1F07B1A4004A8D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011F26B81F07B56E004A8D39 /* vectores.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = vectores.pdf; sourceTree = "<group>"; };
+		011F26B91F07B56E004A8D39 /* diagonalizacion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = diagonalizacion.pdf; sourceTree = "<group>"; };
+		011F26BA1F07B56E004A8D39 /* programacion_lineal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = programacion_lineal.pdf; sourceTree = "<group>"; };
+		011F26BB1F07B56E004A8D39 /* matematica_discreta.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = matematica_discreta.pdf; sourceTree = "<group>"; };
+		011F26BC1F07B56E004A8D39 /* aplicaciones_lineales.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aplicaciones_lineales.pdf; sourceTree = "<group>"; };
+		011F26BD1F07B56E004A8D39 /* espacios_vectoriales.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = espacios_vectoriales.pdf; sourceTree = "<group>"; };
+		011F26BE1F07B56E004A8D39 /* matrices.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = matrices.pdf; sourceTree = "<group>"; };
+		011F26BF1F07B56E004A8D39 /* teoria_de_grafos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = teoria_de_grafos.pdf; sourceTree = "<group>"; };
+		011F26C91F07B7AB004A8D39 /* FilesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTableViewController.swift; sourceTree = "<group>"; };
+		011F26CB1F0972DC004A8D39 /* Watermark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watermark.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011F26981F07B1A4004A8D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011F26921F07B1A4004A8D39 = {
+			isa = PBXGroup;
+			children = (
+				011F269D1F07B1A4004A8D39 /* Apuntes */,
+				011F269C1F07B1A4004A8D39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		011F269C1F07B1A4004A8D39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011F269B1F07B1A4004A8D39 /* Apuntes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		011F269D1F07B1A4004A8D39 /* Apuntes */ = {
+			isa = PBXGroup;
+			children = (
+				011F26C01F07B578004A8D39 /* pdf-apuntes */,
+				011F269E1F07B1A4004A8D39 /* AppDelegate.swift */,
+				011F26A01F07B1A4004A8D39 /* ViewController.swift */,
+				011F26CB1F0972DC004A8D39 /* Watermark.swift */,
+				011F26C91F07B7AB004A8D39 /* FilesTableViewController.swift */,
+				011F26A21F07B1A4004A8D39 /* Main.storyboard */,
+				011F26A51F07B1A4004A8D39 /* Assets.xcassets */,
+				011F26A71F07B1A4004A8D39 /* LaunchScreen.storyboard */,
+				011F26AA1F07B1A4004A8D39 /* Info.plist */,
+			);
+			path = Apuntes;
+			sourceTree = "<group>";
+		};
+		011F26C01F07B578004A8D39 /* pdf-apuntes */ = {
+			isa = PBXGroup;
+			children = (
+				011F26BC1F07B56E004A8D39 /* aplicaciones_lineales.pdf */,
+				011F26B91F07B56E004A8D39 /* diagonalizacion.pdf */,
+				011F26BD1F07B56E004A8D39 /* espacios_vectoriales.pdf */,
+				011F26BB1F07B56E004A8D39 /* matematica_discreta.pdf */,
+				011F26BE1F07B56E004A8D39 /* matrices.pdf */,
+				011F26BA1F07B56E004A8D39 /* programacion_lineal.pdf */,
+				011F26BF1F07B56E004A8D39 /* teoria_de_grafos.pdf */,
+				011F26B81F07B56E004A8D39 /* vectores.pdf */,
+			);
+			path = "pdf-apuntes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		011F269A1F07B1A4004A8D39 /* Apuntes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011F26AD1F07B1A4004A8D39 /* Build configuration list for PBXNativeTarget "Apuntes" */;
+			buildPhases = (
+				011F26971F07B1A4004A8D39 /* Sources */,
+				011F26981F07B1A4004A8D39 /* Frameworks */,
+				011F26991F07B1A4004A8D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apuntes;
+			productName = Apuntes;
+			productReference = 011F269B1F07B1A4004A8D39 /* Apuntes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		011F26931F07B1A4004A8D39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = Frogames;
+				TargetAttributes = {
+					011F269A1F07B1A4004A8D39 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = "";
+					};
+				};
+			};
+			buildConfigurationList = 011F26961F07B1A4004A8D39 /* Build configuration list for PBXProject "Apuntes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 011F26921F07B1A4004A8D39;
+			productRefGroup = 011F269C1F07B1A4004A8D39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				011F269A1F07B1A4004A8D39 /* Apuntes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		011F26991F07B1A4004A8D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011F26C11F07B58F004A8D39 /* aplicaciones_lineales.pdf in Resources */,
+				011F26C41F07B593004A8D39 /* matematica_discreta.pdf in Resources */,
+				011F26A91F07B1A4004A8D39 /* LaunchScreen.storyboard in Resources */,
+				011F26C81F07B593004A8D39 /* vectores.pdf in Resources */,
+				011F26A61F07B1A4004A8D39 /* Assets.xcassets in Resources */,
+				011F26C51F07B593004A8D39 /* matrices.pdf in Resources */,
+				011F26C31F07B593004A8D39 /* espacios_vectoriales.pdf in Resources */,
+				011F26C21F07B593004A8D39 /* diagonalizacion.pdf in Resources */,
+				011F26C61F07B593004A8D39 /* programacion_lineal.pdf in Resources */,
+				011F26A41F07B1A4004A8D39 /* Main.storyboard in Resources */,
+				011F26C71F07B593004A8D39 /* teoria_de_grafos.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011F26971F07B1A4004A8D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011F26CC1F0972DC004A8D39 /* Watermark.swift in Sources */,
+				011F26CA1F07B7AB004A8D39 /* FilesTableViewController.swift in Sources */,
+				011F26A11F07B1A4004A8D39 /* ViewController.swift in Sources */,
+				011F269F1F07B1A4004A8D39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		011F26A21F07B1A4004A8D39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011F26A31F07B1A4004A8D39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		011F26A71F07B1A4004A8D39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011F26A81F07B1A4004A8D39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		011F26AB1F07B1A4004A8D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		011F26AC1F07B1A4004A8D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		011F26AE1F07B1A4004A8D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LV4V48ATK9;
+				INFOPLIST_FILE = Apuntes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juangabriel.Apuntes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		011F26AF1F07B1A4004A8D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LV4V48ATK9;
+				INFOPLIST_FILE = Apuntes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juangabriel.Apuntes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011F26961F07B1A4004A8D39 /* Build configuration list for PBXProject "Apuntes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011F26AB1F07B1A4004A8D39 /* Debug */,
+				011F26AC1F07B1A4004A8D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011F26AD1F07B1A4004A8D39 /* Build configuration list for PBXNativeTarget "Apuntes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011F26AE1F07B1A4004A8D39 /* Debug */,
+				011F26AF1F07B1A4004A8D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 011F26931F07B1A4004A8D39 /* Project object */;
+}
